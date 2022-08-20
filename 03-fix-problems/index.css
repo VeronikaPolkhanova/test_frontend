@@ -4,15 +4,12 @@ body {
     background: cornsilk;
 }
 
-* {
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .article {
     padding: 24px;
     max-width: 680px;
     text-align: left;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .article__lead {
@@ -22,9 +19,12 @@ body {
     font-family: serif;
 }
 
+.article__figure {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .figure__image {
-    position: relative;
-    height: auto;
     max-width: 100%;
 }
 
